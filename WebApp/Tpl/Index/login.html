@@ -1,0 +1,49 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/webuploader.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style1.css" />
+    <script type="text/javascript" src="__PUBLIC__/js/vote.js"></script>
+    <title>投票系统</title>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="header"><h1>投票</h1><H2>登录</H2></div>
+
+    <div class="discript">
+        <ul>
+            <h3><{$theme['name']}></h3>
+            <li></li>
+            <li></li>
+            <li></li>
+
+
+            <ul>
+    </div>
+    <form method="post" action="__URL__/login">
+        <input value='1' name="retu" type="hidden" >
+        <input value='__SELF__' name="myurl" type="hidden" >
+        <div class="discript" style="padding-left: 40%;">
+            <ul>
+                <h4></h4>
+                <li>用户名 <br/><input type="text" style="width:200px;" name='uname' maxlength="30" required=true /></li>
+                <br/>
+
+                <br/>
+                <li>密码 <br/><input type="password" style="width:200px;height: 30px;" name='upwd' maxlength="30" required=true /></li>
+                <ul>
+        </div>
+
+        <input type="submit" class="btn" style="background-color:#0e90d2;" value="登录"  />
+    </form>
+
+    <include file="Public:foot" />
+
+
+
+

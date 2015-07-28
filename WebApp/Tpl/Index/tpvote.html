@@ -1,0 +1,68 @@
+
+ <!doctype html>
+            <html>
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/css/style.css" />
+                <script type="text/javascript" src="__PUBLIC__/js/vote.js"></script>
+                <title>投票系统</title>
+            </head>
+
+            <body>
+            <div class="wrap">
+                <div class="header"><h1>投票</h1><H2></H2></div>
+
+                <div class="discript">
+                    <ul>
+                        <h3>投票规则</h3>
+                        <h3 style="color:red"></h3>
+                        <li></li>
+                        <li></li>
+                        <li>如果首次投票但提示已经投票，请更换IP或者等待1小时后再试；</li>
+                        <li>所有的投票行为都被记录，同一自然人在短期通过非正常手段进行的连续投票的行为将会被侦测并被标记为无效投票；</li>
+                        <ul>
+                </div>
+                <div class="main">
+                    <form action="__URL__/tpv" method="post" >
+                        <volist name='theme' id='no'>
+                            <if condition="$no.ztx eq 0">
+                            <li><label class="css-label">
+                                <input type="checkbox" name="id" class="css-checkbox" value="<{$no.id}>"/>
+
+                                <a href="__URL__/showv/id/<{$no.id}>"><{$no.name}></a>
+
+                                <span>已得票数：<{$no.num}></span></label>
+                            </li>
+                            </if>
+                        </volist>
+                </div>
+
+                <input type="hidden" name="tid" value="<?php echo $_GET[tid] ?>" />
+
+
+            <?php $t=date('Y-m-d H:i:s',time());?>
+
+                <if condition="$theme1.startime gt $t">
+
+                    <input type="submit" class="btn1" value="未开始"  disabled />
+
+                <elseif condition="$theme1.endtime lt $t"/>
+
+                    <input type="submit" class="btn1" value="已结束"  disabled />
+
+                <else />
+
+                    <input type="submit" class="btn" style="background-color:#0e90d2;" value="提交"  />
+
+                </if>
+
+
+
+
+
+
+
+                </form>
+
+			<include file="Public:foot" />

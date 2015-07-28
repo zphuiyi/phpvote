@@ -1,0 +1,201 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.public.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/common.defined.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style22.css" />
+<title>投票吧-后台管理</title>
+function rea(){ 
+    //重载验证码
+    var time = new Date().getTime();
+        document.getElementById('rei').src= '__APP__/Img/verify/'+time;
+}
+</script>
+
+</head>
+
+<body>
+	
+<center>
+<div id="Confine"></div>
+<div id="Header">
+	<div id="HeaderFrame"><div id="HeaderFrameInner"><div id="HeaderFrameBody">
+		<div id="HeaderSubMenu">
+			<div class="partFrame"><div class="partBody" id="HeaderSubMenuBody">
+               欢迎您来到投票吧-后台管理
+			</div></div>
+		</div>
+		<div class="clear"></div>
+	</div></div></div>
+	<div id="HeaderMenu">
+		<div id="HeaderLogo"><div id="HeaderLogoFrame"><a id="logo-header-link" href="index.asp"><span>&nbsp;</span></a><a id="logo-extend-link" href=""><span>&nbsp;</span></a></div></div>
+		<div id="HeaderMenuBody" class="MenuTab">
+<ul>
+
+<li id="Header-Menu-index" ><a href="" ><span>管理首页</span></a></li>
+
+<li id="Header-Menu-products"  class="jut"><a href="__URL__/listr" ><span>投票主题</span></a></li>
+
+<li id="Header-Menu-products-novice"  class="jut"><a href="__URL__/launch" ><span>发起投票</span></a></li>
+
+<li id="Header-Menu-help" ><a href="" ><span>帮助中心</span></a></li>
+
+</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="HeaderBox"><div id="HeaderBoxFrame">
+		<div id="HeaderBoxHeader"><div class="partInner"><div class="partBody"></div></div></div>
+		<div id="HeaderBoxBody"><div class="partInner"><div class="partBody partContent" id="HeaderBoxBodyContent"><span class="loading">content loading.</span></div></div></div>
+		<div id="HeaderBoxFooter"><div class="partInner"><div class="partBody"></div></div></div>
+	</div></div>
+</div>
+
+<!--header.code-->
+<div id="HeaderAds"></div>
+<div class="Framers"><div class="space"></div></div>
+<div id="test-box" class="al"></div>
+
+
+
+
+<div class="FramerFloor">
+	<div class="MainSide">
+    <div class="Cobs">
+			<div class="CobBar"><p>站内公告</p></div>
+			<div class="CobList"><div class="CobInner">
+<div id="Convor-Body" class="MenuList"><ul id="Convor-Items">
+欢迎您来到投票吧。如果您对各种事情有各种看法，来吧，投票吧。<br>
+您还在跟周围的人对某件事讨论吗？想听听大家的看法吗？来吧，投票吧
+</ul></div>
+			</div></div>
+		</div>
+    
+		<div class="Cobs">	
+			<div class="CobContent"><div class="CobInner">
+			</div></div>
+			<div class="CobFooter"><p></p></div>
+		</div>
+		
+
+		<div class="space"></div>
+		<div class="Block">
+			<div class="BlockBar"><p>管理中心</p></div>
+			<div class="BlockContent"><div class="BlockInner">
+                管理首页			</div></div>
+                
+             <div class="BlockContent"><div class="BlockInner">
+                <a href="__ROOT__/index.php" target="_blank" >投票吧首页</a>			</div></div>
+            
+            <div class="BlockContent"><div class="BlockInner">
+               <a href="__URL__/listr" > 投票项管理</a>		</div></div>
+            <div class="BlockContent"><div class="BlockInner">
+                用户管理		</div></div>
+	          <div class="BlockContent"><div class="BlockInner">
+               <a href="__URL__/setter" >系统设置	</a>	</div></div>		
+            <div class="BlockFooter"><p></p></div>
+		</div>
+        
+ 
+		
+  </div>
+ 
+  
+	<div class="MainContent"><div class="MainFrame">
+
+<div id="NavBar"><div class="partFrame"><div class="partInner">
+	<div class="partMain" style="width: 592px;"><a href="index.asp" class="index">管理首页</a></div>
+	</div>
+</div></div>
+
+
+		<div class="space"></div>
+        
+        <div class="Block1 Block-View">
+			<div class="BlockHeader"><p></p></div>
+			<div class="BlockContent"><div class="BlockInner">
+<div class="StructView re-content">
+	<div class="partTopic" id="div-view-topic"><span>  欢迎您来到后台管理，请登录后再继续刚才的操作吧</span></div>
+    
+	<div class="partSummary" id="div-view-summary">
+		
+		<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:13px; margin-top:18px;">
+	 	<tr> <td></td> <td class="word-break;" width=80%>
+	 		<div style="background-image:url('__PUBLIC__/img/dlbj.jpg'); width:560px;height:365px;">
+	 			<form name="form1" method="post" action="__URL__/login" >
+	 			<input value='1' name="retu" type="hidden" ><input value='__SELF__' name="myurl" type="hidden" >
+	 			<div style="width:100%;height:120px;"></div> <div style="margin-left:35%;height:35px;"> 	帐	号 	：		<input type="text" name='name' maxlength="35" required=true /></div>
+	 				<div style="margin-left:35%;height:35px"> 	密		 	码	 	：	<input type="password" name='pwd' maxlength="35" required=true /></div>
+	 				<div style="margin-left:35%;height:32px"> 	验证码	 	：	<input type="text" name='verify' maxlength="15" style="width:68px;" required=true />	
+	 					<img src='__APP__/Img/verify/' onclick="rea();" id="rei" /></div>
+	 				 
+	 				<div style="margin-left:37%;">	 <input type="image" src='__PUBLIC__/img/dl.png' style="border:0;" class='tjbutton'></div>
+	 			
+	 		</form>	
+	 	</div>   </td>		<td></td>
+	 	</tr></table></table>
+	 	
+	 	
+	 	</div>
+	
+		
+ 
+	<div class="partPartof hide0 sms">
+		<div class="align-right">
+<span class="SpecialBar"><cite></cite></span>
+		</div>
+	</div>
+	<div class="partPartof partParton" id="div-view-partof">
+
+		<div class="right"><span class="author">所属分类: 后台管理</span></div>
+	</div>
+
+	<div class="partAction" id="div-view-action">
+		<div class="left"><span class="tags">&nbsp;</span></div>
+
+	</div>
+    
+	
+</div>
+      </div></div>
+			<div class="BlockFooter"><p></p></div>
+		</div>
+        
+        
+        
+<div class="Halfs">
+	<div class="HalfLeft"></div>
+	<div class="HalfRight"></div>
+</div>
+<div class="space"></div>
+<!-- Ad BEGIN -->
+
+<!-- Ad END -->
+<div class="space"></div>
+<div class="Halfs">
+	<div class="HalfLeft"></div>
+	<div class="HalfRight"></div>
+</div>
+	</div>
+</div>
+<div class="space"></div>
+<div class="FramerFloor">
+	
+</div>
+<div id="Footer">
+	<div id="FooterAds"></div>
+	<div id="FooterFrame">
+		<div id="FooterFrameInner"><div id="FooterFrameBody">
+			
+			<div id="FooterFrameMain">		
+				<div id="FooterInfo">
+                魔秀科技-任振国	|	关于		|	站图		|	管理
+				</div>
+			</div>
+		</div></div>
+	</div>
+</div>
+
+</body>
+</html>

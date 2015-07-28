@@ -1,0 +1,1391 @@
+[ 2015-07-17T16:06:55+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004291s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009408s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014710s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015455s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016159s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002780s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-07-17T16:06:56+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009705s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014690s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015298s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002676s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-07-17T16:09:40+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000703s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003228s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007505s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011353s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011831s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012265s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-07-17T16:11:05+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001632s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004194s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013854s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014581s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015170s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2015-07-17T16:22:10+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005316s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011019s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017516s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018877s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019860s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-07-17T16:22:31+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004947s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009488s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015498s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016185s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-07-17T16:22:46+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003673s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007543s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011879s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012395s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012877s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001892s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-07-17T16:28:36+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003258s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007446s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011296s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012254s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001836s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-07-17T16:29:31+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006808s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002787s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012611s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022374s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022841s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023263s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001750s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-07-17T16:29:53+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008603s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013397s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013974s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014437s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-07-17T16:33:36+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003312s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007376s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011292s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011771s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012202s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001764s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2015-07-17T16:36:18+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003367s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 40 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007870s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011849s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012360s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012822s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001858s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-07-17T16:38:08+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003772s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 40 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008795s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013362s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013888s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014494s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002070s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-07-17T16:38:09+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003801s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 40 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010226s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014905s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015483s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015963s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-07-17T16:38:46+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003343s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011965s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012560s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013035s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001979s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2015-07-17T16:39:11+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007936s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012310s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012894s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013410s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-07-17T16:40:11+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003465s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012518s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016855s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018292s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002489s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-07-17T16:40:12+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005609s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008702s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015078s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015510s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016723s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-07-17T16:40:13+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008458s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012720s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013619s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-07-17T16:40:13+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003040s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008711s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012559s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013943s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002611s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-07-17T16:40:13+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003125s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007387s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011130s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011581s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011964s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-07-17T16:40:14+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003837s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013090s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013578s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014028s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-07-17T16:40:14+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005976s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010195s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017123s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018074s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-07-17T16:40:15+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005790s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001158s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008197s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015313s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015778s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016196s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001718s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2015-07-17T16:40:15+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005780s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011121s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017969s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018406s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018833s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019841s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-07-17T16:40:16+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005902s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010157s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017002s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017571s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-07-17T16:40:16+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003914s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007538s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012176s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012598s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012979s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-07-17T16:40:17+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003089s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008492s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012268s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012729s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013151s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-07-17T16:41:33+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000667s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003581s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008194s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012654s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013101s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013496s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2015-07-17T16:42:06+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003659s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012697s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017539s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018082s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018561s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2015-07-17T16:42:25+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Img/verify/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000742s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+
+[ 2015-07-17T16:42:35+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8] Undefined index: zadi D:\wamp\www\tpvo\Admin\Lib\Action\IndexAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: anlogin D:\wamp\www\tpvo\Admin\Lib\Action\IndexAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.003643s ]
+SQL: SELECT * FROM `think_admin`  [ RunTime:0.000223s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031519s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011733s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044271s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044775s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-07-17T16:42:37+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002886s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011297s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011755s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012167s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013155s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2015-07-17T16:44:57+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007578s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011671s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012142s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012564s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-07-17T16:46:29+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000758s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003620s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: tid D:\wamp\www\tpvo\Admin\Runtime\Cache\b58332d59d509f696e710577c25c2f25.php 第 40 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008116s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012637s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001919s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014647s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2015-07-17T16:48:25+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007286s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001257s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008782s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017529s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019094s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002748s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-07-17T16:48:38+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003523s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009120s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013301s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013831s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014301s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-07-17T16:49:23+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003275s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007633s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011504s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011991s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012441s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001760s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-07-17T16:50:17+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010442s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015180s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015835s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016296s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001999s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-07-17T16:51:26+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003576s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008594s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012893s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013598s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014850s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003007s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2015-07-17T16:54:23+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004470s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008087s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013550s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014162s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014907s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002927s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-07-17T16:55:15+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004358s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010673s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015928s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016641s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002698s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018734s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-07-17T16:55:48+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003868s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007949s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012426s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012924s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013483s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002063s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2015-07-17T16:56:03+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005779s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008459s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015075s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015632s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016142s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-07-17T16:56:30+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004546s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008561s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014363s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014920s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015408s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-07-17T16:58:00+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007084s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008502s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016539s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017067s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017540s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-07-17T16:58:44+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000793s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008577s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012635s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013121s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013565s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-07-17T16:59:04+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001744s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001978s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007472s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010587s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020264s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020874s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021411s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002285s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2015-07-17T17:00:26+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003751s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008827s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013233s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013714s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014138s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015096s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2015-07-17T17:00:29+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005616s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007773s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014037s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014552s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014990s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-07-17T17:03:13+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003524s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007589s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011792s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012274s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012804s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001961s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2015-07-17T17:03:58+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005504s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007637s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014001s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014498s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015047s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2015-07-17T17:10:35+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003596s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013064s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013633s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-07-17T17:10:37+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003317s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008901s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012914s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013969s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002034s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-07-17T17:11:24+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006404s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008080s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015329s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015830s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016259s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017201s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-07-17T17:16:41+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007789s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011829s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012378s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012909s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002005s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-07-17T17:17:44+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003889s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012984s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013484s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2015-07-17T17:19:47+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003999s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007826s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012491s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013056s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013657s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003083s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2015-07-17T17:21:22+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003653s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009974s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002744s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008918s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021826s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022321s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022776s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-07-17T17:46:06+08:00 ] 127.0.0.1 /tpvo/admin.php?s=/Index/launch
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004275s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015168s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015885s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016560s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.016954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002396s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017656s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+

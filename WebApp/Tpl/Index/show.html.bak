@@ -1,0 +1,154 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.public.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/common.defined.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style22.css" />
+<title>投票吧</title>
+<script type="text/javascript" src="__PUBLIC__/style/jquery-1.9.1.min.js"></script>
+    <load href="__PUBLIC__/Js/Jquery/jquery.js" />
+    <load href="__PUBLIC__/Js/Jquery/jquery.form.js" />
+<script type="text/javascript">
+	
+	$(function(){
+			<if condition="$tp eq 1">
+				$(".tjbutton").hide();
+			<else/>
+				$(".show").hide();
+			</if>
+		
+    });
+    function aac(){
+    	var chk_value =[];    
+  				$('input[name="aa"]:checked').each(function(){    
+   					chk_value.push($(this).val());    
+  				});  
+  		return chk_value;
+    	}
+
+			 
+   function ajaa(){  
+   	 $.ajax({
+        type: "post",
+        url: "__URL__/tp",
+        dataType: 'json',
+        data:{tid:<{$theme.tid}>,
+        	aa:aac(),	
+        },     
+        error: function (data) {
+            alert(data.info);
+        },
+        success: function (data) {
+            alert(data.info);
+            $(".show").show('fast',"linear");
+        }
+    	});
+   	}   
+      
+  function show(){ 
+		$(".show").show('fast',"linear");
+		
+	
+	} 
+
+</script>
+</head>
+
+<body>
+
+<include file="Public:her" />
+ 
+  
+	<div class="MainContent"><div class="MainFrame">
+
+<div id="NavBar"><div class="partFrame"><div class="partInner">
+	<div class="partMain" style="width: 592px;"><a href="__URL__/index" class="index">首页</a><span class="item bar-chn"><em>&gt;</em><a href="">投票详细页</a></span></div>
+	
+</div></div></div>
+
+
+		<div class="space"></div>
+ <form id="form1" >
+
+        <div class="Block1 Block-View">
+			<div class="BlockHeader"><p></p></div>
+			<div class="BlockContent"><div class="BlockInner">
+<div class="StructView re-content">
+	<div class="partTopic" id="div-view-topic"><span>主题：<{$theme['title']}></span></div>
+	<div class="partInfo" id="div-view-info">
+		来源:站内 <span class="source"></span> | 
+		结束日期: <span class="tim"> <{$theme['endtime']}> </span> | 
+		<span class="stat">共有(<span class="total-view"> <{$theme['count']}> </span>)人次参与</span> 
+		
+		<span class="resizes"> </span>
+	</div>
+	<div class="partSummary" id="div-view-summary"><span style="margin-left:10%;font-size:13px;"><{$theme.note}></span></div>
+	
+	<div class=space></div>
+    
+    <!--/*==此处循环列表*/-->
+	 <div class="partSummary" id="div-view-summary">
+     <table cellpadding="0" cellspacing="0" class="tab-content table-break">
+
+     
+     		<volist name="date" id="da">
+     			
+          <tr><td class="word-break">
+     			<div class="summary word-break" id="div-view-summary-content" style=" margin-left:50px;font-size:14px;">
+     				<input type=<{$an}> value=<{$da.xid}> name=aa ><{$i}>.<{$da.cho}>	
+     			</div>
+     			</td>
+     			<td><div class="show" >
+ 	
+     				<table width="100%"  border="0" cellpadding="0" cellspacing="4" bgcolor="#FFFFFF" style="font-size:10px">
+              <tr>
+                <td width="61%"><img src="__PUBLIC__/img/dot1.gif" width="<{$da['num']/$count*100|number_format=2}>%" height="15" ></td>
+                <td width="9%"><div align="right"><{$da['num']/$count*100|number_format=2}>%</div></td>
+                <td width="11%"><div align="right" ><{$da.num}>票 </div></td>
+              </tr>
+            </table>
+ 		
+     				</div></td></tr>
+     	
+				</volist>
+				
+				<div class="space"></div>
+     <tr><td><div style="margin-left:50px;margin-top:10px; font-size:12px;" >请您在考虑清楚后，投出宝贵的一票<div></td>
+     		<td><div style="float:right; font-size:12px;" class="show" >总票数：<{$count}>票 <div></td></tr>
+     </table>    
+     </div>
+     <div class="space"></div>
+   <img src="__PUBLIC__/img/button1.gif" onclick="ajaa()" width="50" height="20" style=" margin-left:180px;border:0;" class='tjbutton' />
+   <img src="__PUBLIC__/img/button2.gif" onclick="show()" width="50" height="20" style=" margin-left:80px;border:0;" class='tjbutton' />
+ 
+	<div class="partPartof hide0 sms">
+		<div class="align-right">
+<span class="SpecialBar"><cite></cite></span>
+		</div>
+	</div>
+	<div class="partPartof partParton" id="div-view-partof">
+		<div class="left">所属分类: 投票</div>
+		<div class="right"><span class="author">投票发起者: <font class="username" > <{$fqname}> </font></span></div>
+	</div>
+		<input value=<{$theme.tid}> name="tid" type="hidden" id="tid" >
+  </form> 
+
+	<div class="partAction" id="div-view-action">
+		<div class="left"><span class="tags">&nbsp;</span></div>
+		<div class="right">
+
+<a class="act act-print" href="javascript:;" onclick="javascript:common.doPrint('article');">打印</a>
+<a class="act act-fav" href="javascript:;" onclick="javascript:common.doBookmarkAdd('article');">收藏</a>
+<a class="act act-commend" href="javascript:;" onclick="javascript:common.doCommend('article');">推荐</a>
+<a class="act act-put" href="javascript:;" onclick="javascript:common.doPutAdd('article');">投稿</a>
+<a class="act act-report" href="javascript:;" onclick="javascript:common.doReport('article');">报错</a>
+
+		</div>
+	</div>
+    
+	
+</div>
+      </div></div>
+			<include file="Public:foot" />
+

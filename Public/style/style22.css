@@ -1,0 +1,14 @@
+
+#Pro-DownloadBanner { clear:both; height:240px; background:url("../images/bg.jpg"); position:relative;overflow:hidden; }
+#Pro-DownloadBanner div.partButtonNow { width:200px; height:60px; text-align:center; position:absolute;left:56px;top:130px; overflow:hidden; }
+#Pro-DownloadBanner div.partButtonNow a { display:block;width:100%;height:100%; color:#333333;text-decoration:none;text-align:center; background-image:url("../images/buttons.gif");background-position:0 0;background-repeat:no-repeat; }
+#Pro-DownloadBanner div.partButtonNow a:hover { background-position:0 -60px; color:#000000; }
+#Pro-DownloadBanner div.partButtonNow a span { height:35px;line-height:45px; font-size:18px;font-weight:bold; padding-top:10px; }
+#Pro-DownloadBanner div.partButtonNow a p { font-size:12px; margin-top:-8px; }
+#Pro-DownloadBanner div.partExplainNow { width:280px; height:180px; color:#DDDDDD; text-align:left; position:absolute; margin:46px 0px 0px 415px; }
+#Pro-DownloadBanner div.partExplainNow p { line-height:180%; }
+#Pro-DownloadBanner div.partButtonFuture { width:200px; height:60px; position:absolute;left:456px;top:130px; overflow:hidden; }
+#Pro-DownloadBanner div.partButtonFuture a { display:block;width:100%;height:100%; color:#444444;text-decoration:none;text-align:center; background-image:url("../images/buttons.gif");background-position:0 0;background-repeat:no-repeat; }
+#Pro-DownloadBanner div.partButtonFuture a:hover { color:#000000; }
+#Pro-DownloadBanner div.partButtonFuture a span { display:block; font-size:18px;font-weight:bold; margin-top:15px; }
+#Pro-DownloadBanner div.partButtonFuture a p { font-size:12px; }

@@ -1,0 +1,28 @@
+
+* { word-wrap:break-word; }
+/*
+table,th,td,div,p,font,span,li,input,select,textarea,a { word-wrap:break-word; word-break:break-all; }
+*/
+.table-break { word-wrap:break-word; }
+.table-break .remark,.table-break .content { word-wrap:break-word; word-break:normal; }
+.word-break { word-wrap:break-word; word-break:normal; }	/* break-all */
+.word-keep { word-break:keep-all; }
+
+table.tab tr td.caption,
+table.frm tr td.caption { word-wrap:break-word; }
+
+td.row-item,
+td.row-topic,
+td.row-info,
+td.row-content,
+td.row-name,
+td.row-realname { word-wrap:break-word; word-break:break-all; }
+
+.zoom,
+.clears,.clearfix,.Halfs,
+.all,
+.floor{zoom:1;}
+
+.lin,
+ul.lin li,
+ul.inlines li{text-overflow:ellipsis;}

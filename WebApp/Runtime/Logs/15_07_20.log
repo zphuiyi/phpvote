@@ -1,0 +1,323 @@
+[ 2015-07-20T17:22:14+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/tpvote/tid/3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003530s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.003073s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.003014s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.002970s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.003452s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SELECT * FROM `think_vote` WHERE ( `tid` = 3 )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `think_theme` WHERE ( `tid` = 3 )  [ RunTime:0.000385s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.043395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' D:\wamp\www\tpvo\WebApp\Runtime\Cache\ec00f0f69abf38fc443a9f4c2fdc2aaf.php 第 37 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009681s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054286s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055091s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055911s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003200s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-07-20T17:22:40+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/tpvote/tid/3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.004450s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.003462s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.003379s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.003472s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.003711s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SELECT * FROM `think_vote` WHERE ( `tid` = 3 )  [ RunTime:0.000517s ]
+SQL: SELECT * FROM `think_theme` WHERE ( `tid` = 3 )  [ RunTime:0.000372s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.043240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' D:\wamp\www\tpvo\WebApp\Runtime\Cache\ec00f0f69abf38fc443a9f4c2fdc2aaf.php 第 37 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009902s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054206s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054588s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054978s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-07-20T17:22:42+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/showv/id/36
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003379s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.003060s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005805s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.004251s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.004247s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `think_liuyan` [ RunTime:0.004321s ]
+SQL: SELECT * FROM `think_vote` WHERE ( `id` = 36 )  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `think_liuyan` WHERE ( `vid` = 36 )  [ RunTime:0.000332s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044057s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 18 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 32 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008819s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053711s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054144s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2015-07-20T17:22:43+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/showv/id/36
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003853s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.002818s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.002819s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `think_liuyan` [ RunTime:0.002801s ]
+SQL: SELECT * FROM `think_vote` WHERE ( `id` = 36 )  [ RunTime:0.000316s ]
+SQL: SELECT * FROM `think_liuyan` WHERE ( `vid` = 36 )  [ RunTime:0.000231s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042428s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 18 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 32 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.043124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007736s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050924s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051407s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051821s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-07-20T17:22:44+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/showv/id/36
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003202s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.004531s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.004218s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.005482s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.004297s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `think_liuyan` [ RunTime:0.004155s ]
+SQL: SELECT * FROM `think_vote` WHERE ( `id` = 36 )  [ RunTime:0.000360s ]
+SQL: SELECT * FROM `think_liuyan` WHERE ( `vid` = 36 )  [ RunTime:0.000260s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.050618s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 18 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 32 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.051623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061172s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061804s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062441s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002594s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.063876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-07-20T17:22:44+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/showv/id/36
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001531s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003807s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006535s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.003488s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.003714s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `think_liuyan` [ RunTime:0.003542s ]
+SQL: SELECT * FROM `think_vote` WHERE ( `id` = 36 )  [ RunTime:0.000388s ]
+SQL: SELECT * FROM `think_liuyan` WHERE ( `vid` = 36 )  [ RunTime:0.000235s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.049954s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 18 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 32 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009257s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.060150s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060655s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.061077s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-07-20T17:23:05+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/showv/id/36
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003142s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.002611s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.002626s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.003713s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `think_liuyan` [ RunTime:0.002822s ]
+SQL: SELECT * FROM `think_vote` WHERE ( `id` = 36 )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `think_liuyan` WHERE ( `vid` = 36 )  [ RunTime:0.000207s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040789s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 18 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 32 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008558s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050376s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051678s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2015-07-20T17:23:07+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/liuyan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003002s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.002748s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.002704s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.003020s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.002672s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `think_liuyan` [ RunTime:0.002659s ]
+SQL: INSERT INTO `think_liuyan` (`ip`,`time`,`vid`,`content`) VALUES ('127.0.0.1','2015-07-20 17:23:07',36,'xczvxcvcxvxc') [ RunTime:0.050111s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.089239s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.091269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013377s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.104779s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.106028s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.107383s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.108521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.110582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2015-07-20T17:23:09+08:00 ] 127.0.0.1 /tpvo/index.php?s=/Index/showv/id/36
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 729 行.
+NOTIC: [8] Use of undefined constant PRC - assumed 'PRC' D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_theme` [ RunTime:0.003327s ]
+SQL: SHOW COLUMNS FROM `think_option` [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.002677s ]
+SQL: SHOW COLUMNS FROM `think_ucenter` [ RunTime:0.002700s ]
+SQL: SHOW COLUMNS FROM `think_vote` [ RunTime:0.002790s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\tpvo\WebApp\Lib\Action\IndexAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `think_liuyan` [ RunTime:0.003312s ]
+SQL: SELECT * FROM `think_vote` WHERE ( `id` = 36 )  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `think_liuyan` WHERE ( `vid` = 36 )  [ RunTime:0.000197s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048343s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 18 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 32 行.
+NOTIC: [8] Undefined variable: theme D:\wamp\www\tpvo\WebApp\Runtime\Cache\1349069cbf6e6d5bc42b7e67d80b41c8.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008279s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.057588s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058150s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.058872s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.059422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002655s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001440s ]
+

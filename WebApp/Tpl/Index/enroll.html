@@ -1,0 +1,185 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.public.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/common.defined.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style22.css" />
+<title>投票吧</title>
+<script type="text/javascript" src="__PUBLIC__/style/jquery-1.9.1.min.js"></script>
+<script language="JavaScript">
+function rea(){ 
+    //重载验证码
+    var time = new Date().getTime();
+        document.getElementById('rei').src= '__ROOT__/admin.php?s=/Img/verify/'+time;
+}
+</script>
+
+
+</head>
+
+<body>
+
+<include file="Public:her" />
+  
+	<div class="MainContent"><div class="MainFrame">
+
+<div id="NavBar"><div class="partFrame"><div class="partInner">
+	<div class="partMain" style="width: 592px;"><a href="__URL__/index" class="index">首页</a><span class="item bar-chn"><em>&gt;</em><a href="">用户注册</a></span></div>
+	
+</div></div></div>
+
+
+	<div class="space"></div>
+ <form name="form1" method="post" action="__URL__/addenroll" >
+        
+        <div class="Block1 Block-View">
+			<div class="BlockHeader"><p></p></div>
+			<div class="BlockContent"><div class="BlockInner">
+<div class="StructView re-content">
+	<div class="partTopic" id="div-view-topic"><span>欢迎您加入我们的家庭</span></div>
+	<div class="partInfo" id="div-view-info">
+
+	</div>
+	
+    
+    <!--/*==此处循环列表*/-->
+	 <div class="partSummary" id="div-view-summary">
+	<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		注册邮箱：</td>
+	 		<td >		<input type="email" style="width:200px;" name='uemail' maxlength="30" required=true />				</td>
+	 	</tr></table>
+	 	
+	 		<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		登录密码：</td>
+	 		<td >		<input type="password" style="width:200px;" name='upwd' maxlength="15" required=true />				</td>
+	 	</tr></table>
+	 	
+	 	<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		重复密码：</td>
+	 		<td >		<input type="password" style="width:200px;" name='reupwd' maxlength="15" required=true />				</td>
+	 	</tr></table>
+	 	
+	 		<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		我的名字：</td>
+	 		<td >		<input type="text" style="width:200px;" name='name' maxlength="30" required=true />				</td>
+	 	</tr></table>
+	 	
+	 		<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		性别：</td>
+	 		<td	width=10% >		<input type="radio" name="sex"	value='男' checked/>	男			</td> <td >		<input type="radio" name="sex" value='女'/>	女			</td>
+	 	</tr></table>
+	 	
+	 	<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		联系方式：</td>
+	 		<td >		<input type="text" style="width:200px;" name='phon' maxlength="12"  />				</td>
+	 	</tr></table>
+	 	
+	 	<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		我现在：</td>
+	 		<td >	<select id="uxCity" stytle="font-size:12px;width:200px;" name='workr'>
+						<option value="没有填写身份">请选择您的身份</a></option>
+						<option value="已经工作">已经工作了</option>	
+						<option value="还在上学">还在上学</option>	
+						<option value="还没有工作，待业中">还没有工作</option>	
+						<option value="其他身份">是其他身份</option>	
+			</select>				</td>
+	 	</tr></table>
+	 	
+	 		 <table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		居住地：</td>
+	 		<td >		<input type="text" style="width:200px;" name='addr' maxlength="30"  />				</td>
+	 	</tr></table>
+	 	
+	 		<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:18px; margin-left:48px;">
+	 	<tr><td class="word-break" width="20%">
+	 		验证码：</td>
+	 		<td >		<input type="text" name='verify' maxlength="15" style="width:68px;" required=true />	
+	 					<img src='__ROOT__/admin.php?s=/Img/verify/' id="rei" onclick="rea();" />			</td>
+	 	</tr></table>
+	 	
+	 	 <div style="width:300px;height:15px;margin-left:28%;margin-top:15px;color:#ff0000;"><{$error}></div>
+		
+	 	<div class="space"></div><div style="margin-left:10%;"></div>
+<div class="space"></div>    
+     </div>
+     <div class="space"></div>
+   <input type="image" src=__PUBLIC__/img/button1.gif width="50" height="20" style=" margin-left:180px;border:0;" class='tjbutton'>
+   
+ 
+	<div class="partPartof hide0 sms">
+		<div class="align-right">
+<span class="SpecialBar"><cite></cite></span>
+		</div>
+	</div>
+	<div class="partPartof partParton" id="div-view-partof">
+		<div class="left">所属分类: 用户中心</div>
+		
+	</div>
+		
+  </form> 
+
+	<div class="partAction" id="div-view-action">
+		<div class="left"><span class="tags">&nbsp;</span></div>
+		<div class="right">
+
+<a class="act act-print" href="javascript:;" onclick="javascript:common.doPrint('article');">打印</a>
+<a class="act act-fav" href="javascript:;" onclick="javascript:common.doBookmarkAdd('article');">收藏</a>
+<a class="act act-commend" href="javascript:;" onclick="javascript:common.doCommend('article');">推荐</a>
+<a class="act act-put" href="javascript:;" onclick="javascript:common.doPutAdd('article');">投稿</a>
+<a class="act act-report" href="javascript:;" onclick="javascript:common.doReport('article');">报错</a>
+
+		</div>
+	</div>
+    
+	
+</div>
+      </div></div>
+			<div class="BlockFooter"><p></p></div>
+		</div>
+        
+        
+        
+<div class="Halfs">
+	<div class="HalfLeft"></div>
+	<div class="HalfRight"></div>
+</div>
+<div class="space"></div>
+<!-- Ad BEGIN -->
+
+<!-- Ad END -->
+<div class="space"></div>
+<div class="Halfs">
+	<div class="HalfLeft"></div>
+	<div class="HalfRight"></div>
+</div>
+	</div>
+</div>
+<div class="space"></div>
+<div class="FramerFloor">
+	
+</div>
+<div id="Footer">
+	<div id="FooterAds"></div>
+	<div id="FooterFrame">
+		<div id="FooterFrameInner"><div id="FooterFrameBody">
+			
+			<div id="FooterFrameMain">		
+				<div id="FooterInfo">
+                魔秀科技-任振国	|	关于		|	站图		|	<a href="__ROOT__/admin.php" target="_blank">管理<a>
+				</div>
+			</div>
+		</div></div>
+	</div>
+</div>
+
+</body>
+</html>

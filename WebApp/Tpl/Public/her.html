@@ -1,0 +1,72 @@
+<center >
+<div id="Confine" ></div>
+<div id="Header" >
+	<div id="HeaderFrame"><div id="HeaderFrameInner"><div id="HeaderFrameBody">
+		<div id="HeaderSubMenu">
+			<div class="partFrame"><div class="partBody" id="HeaderSubMenuBody">
+
+			</div></div>
+		</div>
+		<div class="clear"></div>
+	</div></div></div>
+	<div id="HeaderMenu">
+		<div id="HeaderLogo"><div id="HeaderLogoFrame"></div></div>
+		<div id="HeaderMenuBody" class="MenuTab">
+<ul>
+
+<li id="Header-Menu-index" ><a href="__URL__" ><span>首页</span></a></li>
+
+<li id="Header-Menu-products"  class="jut"><a href="__URL__/listr/bh/1" ><span>活动列表</span></a></li>
+
+</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="HeaderBox"><div id="HeaderBoxFrame">
+		<div id="HeaderBoxHeader"><div class="partInner"><div class="partBody"></div></div></div>
+		<div id="HeaderBoxBody"><div class="partInner"><div class="partBody partContent" id="HeaderBoxBodyContent"><span class="loading">content loading.</span></div></div></div>
+		<div id="HeaderBoxFooter"><div class="partInner"><div class="partBody"></div></div></div>
+	</div></div>
+</div>
+
+<!--header.code-->
+<div id="HeaderAds"></div>
+<div class="Framers"><div class="space"></div></div>
+<div id="test-box" class="al"></div>
+
+
+
+
+<div class="FramerFloor">
+	<div class="MainSide" >
+
+    
+		<div class="Cobs">	
+			<div class="CobContent"><div class="CobInner">
+			</div></div>
+			<div class="CobFooter"><p></p></div>
+		</div>
+		
+
+		<div class="space"></div>
+		<div class="Block">
+			<div class="BlockBar"><p>用户中心</p></div>
+			<div class="BlockContent"><div class="BlockInner">
+				<if condition="$userbj eq 0">
+           显示用户信息请 <a href="__URL__/login">  	登录	</a>		<br><div style="height:20px;"></div>  没有注册请先点 <a href="__URL__/enroll" target="_blank">	注册	</a> 
+         <else/>
+           	<table style="font-size:13px;"><tr height=25px;><td> <{$ucent.name}><td></tr>
+           					<tr  height=25px;><td>性别：<{$ucent.sex}><td></tr>				<tr  height=25px;><td>联系方式：<{$ucent.phon}><td></tr>		
+           						<tr  height=25px;><td>发起投票<{$ucent.thnum}>次</td></tr>     <tr  height=25px;><td>参与投票<{$ucent.opnum}>次</td></tr> 
+          <tr  height=25px;><td>上次登录时间:</td></tr> 	<tr  height=25px;><td><{$ucent.utime}></td></tr>				
+          
+          <tr  height=25px;><td></td><td>  <a href="__URL__/login/anlogin/1"> >>登出 </a>     </td></tr>		
+           </table>        </if>
+			</div></div>
+			<div class="BlockFooter"><p></p></div>
+		</div>
+        
+        <div class="space"></div>
+
+		
+  </div>

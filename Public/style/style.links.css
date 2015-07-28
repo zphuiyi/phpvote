@@ -1,0 +1,16 @@
+
+div.StructLinks { background:url('../images/icon_bar.gif') 0 2px no-repeat; text-align:left; padding-left:65px; padding-top:0px; }
+div.StructLinksBody { clear:both; overflow:hidden; height:25px; line-height:25px; }
+div.StructLinksBody a { display:inline-block; padding:0; margin-right:10px; }
+
+div.LinksPic { clear:both; text-align:left; }
+div.LinksPic ul { clear:both; }
+div.LinksPic li { display:inline; height:35px; line-height:35px; margin-right:8px; }
+div.LinksPic li a { }
+div.LinksPic li a img { width:88px; height:31px; border:0; }
+
+div.LinksTxt { clear:both; text-align:left; }
+div.LinksTxt ul { clear:both; }
+div.LinksTxt li { display:inline; width:110px; height:20px; line-height:20px; margin:2px 5px 2px 0; }
+div.LinksTxt li a { }
+div.LinksTxt li a span { }

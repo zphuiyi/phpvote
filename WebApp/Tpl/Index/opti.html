@@ -1,0 +1,205 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.public.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/common.defined.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style22.css" />
+<script language="javascript" type="text/javascript" src="__PUBLIC__/date/WdatePicker.js"></script>
+
+
+<script type="text/javascript" src="__PUBLIC__/style/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+			$(".zjtp").css('display','none');
+			$("#edid").css('display','none');
+			
+			document.getElementById("edid1").disabled=true;
+			document.getElementById("edid2").disabled=true;
+			document.getElementById("edid3").disabled=true;
+			document.getElementById("edid4").disabled=true;
+			document.getElementById("edid5").disabled=true;
+	});
+	
+	function show(){ 
+		$(".zjtp").show('fast',"linear");
+	}
+	function edit(){
+		$("#edid").show('fast',"linear");
+		
+			document.getElementById("edid1").disabled=false;
+			document.getElementById("edid2").disabled=false;
+			document.getElementById("edid3").disabled=false;
+			document.getElementById("edid4").disabled=false;
+			document.getElementById("edid5").disabled=false;
+		
+		}
+function ended(tid){
+	var aa= window.confirm("结束后该项不会在参与投票，确定要结束这项投票吗？");
+	if (aa) {
+			window.location.href='__URL__/thed/bh/1/tid/'+tid;
+	}
+}		
+		
+
+</script>
+
+
+
+<title>投票吧</title>
+</head>
+
+<body>
+	
+<include file="Public:her" />
+ 
+  
+	<div class="MainContent"><div class="MainFrame">
+
+<div id="NavBar"><div class="partFrame"><div class="partInner">
+	<div class="partMain" style="width: 592px;"><a href="" class="index">首页</a><span class="item bar-chn"><em>&gt;</em><a href="">投票管理</a></span></div>
+	</div>
+</div></div>
+
+
+		<div class="space"></div>
+          
+        <div class="Block1 Block-View">
+			<div class="BlockHeader"><p></p></div>
+			<div class="BlockContent"><div class="BlockInner">
+<div class="StructView re-content">
+	<div class="partTopic" id="div-view-topic"><span>当前操作主题：<{$theme['title']}></span></div>
+	<div class="partInfo" id="div-view-info">
+		来源:站内 <span class="source"></span> | 
+	
+		<span class="stat">投票发起人：<span class="total-view"> <{$theme.fqname}> </span></span> | 
+		当前参与人数: <span class="tim"> <{$theme.count}> </span>
+		
+		<span class="resizes"> </span>
+	</div>
+	
+    
+    <!--/*==此处循环列表*/-->
+	 <div class="partSummary" id="div-view-summary">
+	 		<div class="space"></div>
+	 		
+	 	<table cellpadding="0" cellspacing="0" class="tab-content table-break"  style="margin-top:30px;">   <tr><td> <div style="margin-left:50%;font-size:14px;">当前主题状态：</div></td>
+     	<td style="font-size:12px;">	<switch name="theme['zt']">
+							<case value="0">正在进行中...
+								(	<a onclick='ended(<{$theme.tid}>)'> <img src="__PUBLIC__/images/unlink.gif" width="20" height="20" style="border:0;" class='tjbutton' /> 结束	</a>	
+				|		<img src="__PUBLIC__/images/v_del.gif" onclick="deled(<{$theme.tid}>)" width="45" height="18" style="border:0;" class='tjbutton' />	)</case>	
+
+							<case value="1"><script language='javascript'>alert('异常数据错误！');window.close();</script></case>	
+							
+							<case value="2">待完善  </case>
+			</switch> </td><tr>
+     	</table><div class="space"></div>
+     		
+     		
+     <form name="form1" method="post" target="_blank"	action="__URL__/xiugai" > 		
+     		
+     		<table cellpadding="0" cellspacing="0" class="tab-content table-break" style="font-size:14px; margin-top:28px; margin-left:48px;">
+
+	 		<tr><td class="word-break" width="30%" style="text-align:right;">
+	 		<div style="font-size:14px;margin-top:10px;">投票主题名：</div></td><td>	<div style="font-size:14px;margin-top:10px;">
+	 	<input id='edid1' type="text" style="width:280px;" name='title' value=<{$theme.title}> required=true />	</div>
+	 	</td></tr>
+	 	
+	 		<tr><td class="word-break" width="30%" style="text-align:right;">
+	 		<div style="font-size:14px;margin-top:10px;">发起者姓名：</div></td><td>	<div style="font-size:14px;margin-top:10px;">
+	 	<input id='edid2' type="text" name='fqname' value=<{$theme.fqname}> required=true />	</div>
+	 	</td></tr>
+	 	
+
+	 	
+	 	<tr><td class="word-break" width="30%" style="text-align:right;">
+	 		<div style="font-size:14px;margin-top:10px;">投票的方式：</div></td> <td style="text-align:center;">	<div style="font-size:14px;margin-top:10px;">
+	<input id='edid3' type="radio" name="choice"	value=0  <if condition="$theme['choice'] eq 0">  checked </if>	/>	单选			</td></div>  <td >	<div style="font-size:14px;margin-top:10px;">
+			<input id='edid4' type="radio"  name="choice" value=1 <if condition="$theme['choice'] eq 1">  checked </if> />	多选			</td>
+	 	</div> <td></td><td></td></tr>
+	 		
+	 		<tr><td class="word-break" width="30%" style="text-align:right;">
+	 		
+	 		<div style="font-size:14px;margin-top:10px;">开始时间：</div></td><td>	<div style="font-size:14px;margin-top:10px;">
+	 			<input type="text" name='startime' value=<{$theme.startime}> disabled=true/></div>
+	 		</td>
+	 	
+	 	</tr>
+	 	
+	 	<tr><td class="word-break" width="30%" style="text-align:right;">
+	 		
+	 		<div style="font-size:14px;margin-top:10px;">结束时间：</div></td><td>	<div style="font-size:14px;margin-top:10px;">
+	 		<input id='edid5' class="Wdate" type="text" onfocus="WdatePicker({minDate:'%y-%M-{%d+1}'})" name='endtime' value=<{$theme.endtime}>  required=true />	</div>
+	 		</td>
+	 	
+	 	</tr>
+	 	
+	 	</table> 	
+	 
+<div class="space"></div>    
+ 			<input value=<{$theme.tid}> name="tid" type="hidden" id="tid" >
+     <div class="space"></div>
+  
+  </form> 
+
+  
+	 	
+     <table cellpadding="0" cellspacing="0" class="tab-content table-break" style="margin-top:30px;">
+
+     	<tr style="font-size:14px;"><td><div style="margin-left:50%;">投票项：</div></td><td style="font-size:13px;"><{$counxx}>项(	<a onclick="show();"> <img src="__PUBLIC__/images/folder_open.gif"  width="12" height="12" style="border:0;margin-top:-5px;" class='tjbutton' /> 增加投票项</a>	)</td></tr>
+    </table>
+    
+     <table cellpadding="0" cellspacing="0" class="tab-content table-break" style="margin-top:8px;">
+     		<volist name="date" id="da">		
+          <tr ><td>
+     			<div class="summary word-break" id="div-view-summary-content" style="font-size:13px;margin-left:50%">
+     				<{$i}>.<{$da.cho}>	(<{$da.num}></span>票)
+     			</div></td><td style="font-size:12px;"></td>	</tr>
+				</volist>
+				
+				<tr ><td>
+     			<div class="summary word-break" id="div-view-summary-content" style="font-size:13px;margin-left:50%">
+     				总共：(  <{$counum}>  </span>票)
+     			</div></td><td style="font-size:12px;"> </td>	</tr>
+				<div class="space"></div>
+     </table>  <div class="space"></div>
+     
+     <form name="form2" method="post" target="_blank"	action="__URL__/thed/bh/2" class="zjtp" >
+     			<input value=<{$theme.tid}> name="tid" type="hidden" id="tid" >
+     <table cellpadding="0" cellspacing="0" class="tab-content table-break">
+
+     	<tr style="font-size:14px;"><td><div style="text-align:right;">投票项：</div></td>  <td><input type="text" name='cho' style="width:220px;font-size:12px;" required=true /></td>
+     		<td style="font-size:13px;">(	<input type="image" src="__PUBLIC__/images/add.gif"  width="13" height="15" style="border:0;">  确定增加	)</td></tr>
+    </table>
+     </form>
+     
+     <div class="space" style="margin-top:60px;"></div>
+     </div>
+  
+	<div class="partPartof hide0 sms">
+		<div class="align-right">
+<span class="SpecialBar"><cite></cite></span>
+		</div>
+	</div>
+	
+		
+ 
+	<div class="partPartof hide0 sms">
+		<div class="align-right">
+<span class="SpecialBar"><cite></cite></span>
+		</div>
+	</div>
+	<div class="partPartof partParton" id="div-view-partof">
+
+		<div class="right"><span class="author">所属分类: 后台管理</span></div>
+	</div>
+
+	<div class="partAction" id="div-view-action">
+		<div class="left"><span class="tags">&nbsp;</span></div>
+
+	</div>
+    
+	
+</div>
+      </div></div>
+		<include file="Public:foot" />

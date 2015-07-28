@@ -1,0 +1,194 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>后台管理系统</title>
+  <meta name="description" content="这是一个 index 页面">
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="{$Think.const.HURL_IMG}favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="{$Think.const.HURL_IMG}app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="stylesheet" href="__PUBLIC__/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="__PUBLIC__/css/admin.css">
+<script type="text/javascript" src="__PUBLIC__/js/laydate.js"></script>
+
+<script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.js"></script>
+
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/uploadify/jquery.uploadify.min.js"  type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/uploadify/uploadify.css">
+
+    <script type="text/javascript">
+        function del(delName,delId){		//点击删除链接，ajax
+            //alert(delId);
+            var info=$('#url').val();  //获取url
+            var d='#'+delName;
+            var url=info+"/del";		//删除图片的路径
+            $.post(url,{'name':delId},function(data){		//ajax后台
+                $(d).html(data.info);						//输出后台返回信息
+                $(d).hide(3000);							//自动隐藏
+            },'json');										//josn格式
+
+        }
+        $(function() {
+            $('#file_upload').uploadify({
+                'formData'     : {
+                    'timestamp' : '{$time}',            //时间
+                    'token'     : '{$time | md5}',		//加密字段
+                    'url'		: $('#url').val()+'/Update/theme/',	//url
+                    'imageUrl'	: $('#root').val()				//root
+                },
+
+                'fileTypeDesc' : 'Image Files',					//类型描述
+                //'removeCompleted' : false,    //是否自动消失
+                'fileTypeExts' : '*.gif; *.jpg; *.png',		//允许类型
+                'fileSizeLimit' : '3MB',					//允许上传最大值
+                'swf'      :'__PUBLIC__/uploadify/uploadify.swf',	//加载swf
+                'uploader' : $('#url').val()+'/uploadify',					//上传路径
+                'buttonText' :'文件上传',									//按钮的文字
+
+                'onUploadSuccess' : function(file, data, response) {			//成功上传返回
+                    var n=parseInt(Math.random()*100);								//100以内的随机数
+                    //alert(n+data);
+                    //插入到image标签内，显示图片的缩略图
+                    $('#image').append('<div id="'+n+'" class="photo"><a href="'+data+'"  target="_blank"><img src="__ROOT__/Public/Update/theme/'+data+'"  height=80 width=80 /></a><div class="del"><a href="javascript:vo(0)" onclick=del("'+n+'","/Public/Update/theme/'+data+'");return false;>删除</a></div></div>');
+
+                }
+
+            });
+        });
+    </script>
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+<header class="am-topbar admin-header">
+  <div class="am-topbar-brand">
+    <strong>xxxxx</strong> <small>后台管理</small>
+  </div>
+
+  <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+      <li><a href="javascript:;" id="admin-fullscreen"><span class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="am-cf admin-main">
+  <!-- sidebar start -->
+  <div class="admin-sidebar">
+    <ul class="am-list admin-sidebar-list">
+      <li><a href="__URL__/index"><span class="am-icon-home"></span> 首页</a></li>
+      <li><a href="__URL__/users"><span class="am-icon-table"></span> 用户</a></li>
+      <li><a href="__URL__/listr"><span class="am-icon-pencil-square-o"></span> 活动</a></li>
+      <li><a href="__URL__/liuyan"><span class="am-icon-pencil-square-o"></span> 留言</a></li>
+      <li><a href="__URL__/login/anlogin/1"><span class="am-icon-sign-out"></span> 注销</a></li>
+    </ul>
+  </div>
+
+  <!-- sidebar end -->
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">新增选项</strong> / <small></small></div>
+    </div>
+
+    <hr/>
+
+    <div class="am-g">
+      <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+        <div class="am-panel-default">
+        </div>
+        <div class="am-panel-default">
+          <div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+        <form class="am-form am-form-horizontal" name="form1" action="__URL__/addx1"  method="post">
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label">名称</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="user-name" name="name">
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <label for="user-email" class="am-u-sm-3 am-form-label">票数</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="user-email" placeholder="默认不填为0" name="num">
+      
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <label for="user-intro" class="am-u-sm-3 am-form-label">图片</label>
+            <div class="am-u-sm-9">
+
+
+
+                    <input id="file_upload" name="file_upload" type="file" multiple="true">
+                    <div id="image" class="image"></div>
+                    <input type="hidden" id="url" value="__URL__">
+                    <input type="hidden" id="root" value="__ROOT__">
+                    <input type="hidden" id="public" value="__PUBLIC__">
+
+
+            </div>
+          </div>
+
+
+
+         <div class="am-form-group">
+            <label for="user-intro" class="am-u-sm-3 am-form-label">详情</label>
+            <div class="am-u-sm-9">
+              <textarea class=""  rows="5" id="myEditor" name="vcontent"></textarea>
+              <small></small>
+            </div>
+          </div>
+         <div  class="am-form-group">
+		  <label for="user-intro" class="am-u-sm-3 am-form-label">是否开启</label>
+	    <div class="am-u-sm-9">
+         <select name="ztx">
+			          <option value="0">开启</option>
+			  	      <option value="2">关闭</option>			  	      		  	      
+          </select>
+		   <div>
+		   
+		   </div>
+            <div class="am-u-sm-9 am-u-sm-push-3">
+                <input type="hidden" name="tid" value="<?php echo $_GET[tid] ?>" class="btn " />
+              <input type="submit" name="commit" value="保存数据" class="btn " />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- content end -->
+
+</div>
+<footer>
+  <hr>
+  <p class="am-padding-left"></p>
+</footer>
+<script type="text/javascript">  
+    UE.getEditor('myEditor')  
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.public.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/common.defined.css" />
+<link rel="stylesheet" rev="stylesheet" type="text/css" href="__PUBLIC__/style/style22.css" />
+<script src="__PUBLIC__/js/common/jquery.tinyscrollbar.min.js"></script>
+<script src="__PUBLIC__/js/common/urlutil.js"></script>
+<script src="__PUBLIC__/js/theme.js" ></script>
+<SCRIPT LANGUAGE="JavaScript">
+function news(){
+	window.alert("对不起");
+}
+$(function(){
+		$('#shibor').tinyscrollbar();
+		
+}
+</script>
+
+
+<title>投票吧</title>
+
+</head>
+
+<body>
+
+<include file="Public:her" />
+ 
+  
+	<div class="MainContent"><div class="MainFrame">
+
+<div id="NavBar"><div class="partFrame"><div class="partInner">
+	<div class="partMain" style="width: 592px;"><a href="" class="index" >首页</a></div>
+	<div class="partRelate">
+<div class="relate">
+	<div class="SearchMini">
+		
+	<form method="post" action="__URL__/listr/bh/2" id="frmi_searchmini" name="frmi_searchmini">
+	<input type="text" maxlength="50" value="全站搜索" name="keyword" class="keyword" style="font-size:12px; height:18px;">
+	<input type="submit" value="搜索" class="btns">
+	</form>
+	</div>
+</div>
+</div>
+</div></div></div>
+
+
+
+
+
+<a href="http://www.moxiu.com" target="_blank"><div id="Pro-DownloadBanner">
+</div>
+</a>
+		<div class="space"></div>
+<div class="Halfs">
+	<div class="HalfLeft">
+		<div class="Block">
+			<div class="BlockBar"><p>最新投票</p></div>
+			<div class="BlockList"><div class="BlockInner">
+<div class="StructList"><ul>
+	
+<volist name="zuixin" id="zx" >	
+	主题：<{$zx.title}>
+<li ><span class="total-view right"> <{$zx.startime}> </span><span class="topic"><a href="__URL__/show/tid/<{$zx.tid}>">点击查看</a></span></li>
+</volist>
+
+</ul>
+<a style="margin-left:200px;" href="__URL__/listr/bh/3">更多近期投票........</a>
+</div>
+			</div></div>
+			<div class="BlockFooter"><p></p></div>
+		</div>
+	</div>
+	<div class="HalfRight">
+		<div class="Block">
+			<div class="BlockBar"><p>热门投票</p></div>
+			<div class="BlockList"><div class="BlockInner">
+<div class="StructList"><ul>
+
+<volist name="remen" id="rm" >	
+	主题：<{$rm.title}>
+<li ><span class="total-view right"> <{$rm.count}>次参与</span><span class="topic"><a href="__URL__/show/tid/<{$rm.tid}>">点击查看</a></span></li>
+</volist>
+
+</ul>
+
+<a style="margin-left:200px;" href="__URL__/listr/bh/4">更多热门........</a>
+</div>
+			</div></div>
+			<div class="BlockFooter"><p></p></div>
+		</div>
+	</div>
+</div>
+<div class="space"></div>
+<!-- Ad BEGIN -->
+
+<!-- Ad END -->
+<div class="space"></div>
+<div class="Halfs">
+	<div class="HalfLeft">
+		<div class="Block">
+			<div class="BlockBar"><p>活跃发起者</p></div>
+			<div class="BlockList"><div class="BlockInner">
+<div class="StructList"><ul>
+
+用户：群岛事件
+<li ><span class="total-view right">89 次发起投票</span><span class="topic"><a onclick="news();">点击查看他发起的投票</a></span></li>
+
+用户：天上一天		
+<li ><span class="total-view right">87 次发起投票</span><span class="topic"><a onclick="news();">点击查看他发起的投票</a></span></li>
+
+用户：yy：分
+<li ><span class="total-view right">77 次发起投票</span><span class="topic"><a onclick="news();">点击查看他发起的投票</a></span></li>
+
+
+</ul></div>
+			</div></div>
+			<div class="BlockFooter"><p></p></div>
+		</div>
+	</div>
+	<div class="HalfRight">
+		<div class="Block">
+			<div class="BlockBar"><p>已经结束的热门话题</p></div>
+			<div class="BlockList"><div class="BlockInner">
+<div class="StructList"><ul>
+
+<volist name="endremen" id="erm" >	
+	主题：<{$erm.title}>
+<li ><span class="total-view right"> <{$erm.count}>次参与</span><span class="topic"><a href="__URL__/show/tid/<{$erm.tid}>" >点击查看</a></span></li>
+</volist>
+
+</ul>
+<a style="margin-left:200px;" href="__URL__/listr/bh/5">查看全部结束的投票........</a>
+</div>
+	</div></div>
+</div></div>
+<include file="Public:foot" />

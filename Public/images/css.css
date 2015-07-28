@@ -1,0 +1,134 @@
+.text1 {
+	font-size: 12px;
+	line-height: 160%;
+	text-decoration: none;
+	color: #1C629D;
+}
+body {
+	background-color: #fafafa;
+}
+.T_border {
+	font-size: 12px;
+	line-height: 26px;
+	text-decoration: none;
+	border: 1px solid #5683C7;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-image: url(title2_bg.gif);
+}
+.Center_Text1 {
+	font-size: 12px;
+	line-height: 160%;
+	text-align: center;
+}
+a:link {
+	font-size: 12px;
+	color: #1C629D;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 12px;
+	color: #1C629D;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	color: #1C629D;
+	text-decoration: underline;
+}
+a:active {
+	font-size: 12px;
+	color: #1C629D;
+	text-decoration: none;
+}
+.H_Title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+}
+.url_input {
+	font-size: 12px;
+	color: #333333;
+	border: 1px solid #999999;
+	height: 18px;
+}
+.tr_border {
+	margin: 0px;
+	padding: 0px;
+}
+.l_input {
+	font-size: 40px;
+	font-weight: normal;
+	text-decoration: none;
+	height: 45px;
+	width: 250px;
+	font-family: "黑体";
+}
+a.title:link {
+	color: #333333;
+	text-decoration: none;
+}
+a.title:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a.title:hover {
+	color: #333333;
+	text-decoration: none;
+}
+a.title:active {
+	color: #333333;
+	text-decoration: none;
+}
+.t_border2 {
+	border: 1px solid #707175;
+}
+.titlebg2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-image: url(title_bg.gif);
+	line-height: 26px;
+	padding: 0px;
+	text-indent: 10px;
+}
+.input {
+	border: 1px solid #707175;
+}
+.autoID {
+	font-family: "Tempus Sans ITC";
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.subtable {
+	font-size: 12px;
+	line-height: 170%;
+	text-decoration: none;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #efefef;
+	border-bottom-color: #efefef;
+	color: #1C629D;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.title_subtitlebg {
+	font-size: 12px;
+	color: #1C629D;
+	background-color: #FFFFCE;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #efefef;
+	border-bottom-color: #666666;
+	line-height: 160%;
+}
